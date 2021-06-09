@@ -24,6 +24,11 @@ Image Credits:
 Trello Board for Planning:
 - https://trello.com/b/IOFj0gu7/notesapp
 
+![app-screenshot](./duckingNotes-screenshot.png)
+
+Testing screen
+![testing-screenshot](./isItDuckingWorkingTest-screenshot.png)
+
 ## Development History
 
 The application was developed over a 4 day week in the afternoon only, by a group of 4 people. Our approach was to use Vanilla JS, so we could understand how to build dynamic and responsive web apps without the use of simplifying packages. 
