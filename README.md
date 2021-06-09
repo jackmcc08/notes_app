@@ -1,6 +1,6 @@
 # Notes App
 
-Makers Week 7 Afternoon Group Coding Challenge using javascript.
+Makers Week 7 Afternoon Group Coding Challenge.
 
 Notes App created by:
 - Will - willspencer16
@@ -8,7 +8,7 @@ Notes App created by:
 - Stu - StuBehan
 - Jack - jackmcc08
 
-The was created with vanilla javascript, HTML and CSS. It also incorporates an emoji API to generate emojis based on shortcodes and utilise localContent on your browser to preserve the notes data.
+The was created with vanilla Javascript(no packages like jQuery), HTML and CSS. It also incorporates an emoji API to generate emojis based on shortcodes and utilise localContent on your browser to preserve the notes data.
 
 As part of development we also created our own testing script - `Is it ducking working?`
 
@@ -24,7 +24,30 @@ Image Credits:
 Trello Board for Planning:
 - https://trello.com/b/IOFj0gu7/notesapp
 
+## Development History
+
+The application was developed over a 4 day week in the afternoon only, by a group of 4 people. Our approach was to use Vanilla JS, so we could understand how to build dynamic and responsive web apps without the use of simplifying packages. 
+
+In addition we were tasked with building our own testing app which we did with delight. 
+
+On completion the app passed all tests we wrote from our testing suite.
+
+## Tech Stack
+- Vanilla Javascript
+- HTML, CSS
+- Use of local storage to store notes
+- connects to emojify API - https://makers-emojify.herokuapp.com/
+
+## To develop further
+
+1. git clone to your local machine
+2. run `yarn install`
+3. open index.html in project root to see app working in your browser
+4. open TestRunner.html in project root see testing suite in your browser (you need to open the developer console to see the tests run)
+
 ## User Stories:
+
+All delivered
 
 ```
 As a programmer
@@ -50,7 +73,7 @@ I can use shortcodes like `:fire:` that get converted into emojis like 🔥
 So I can record notes with fun little pictures
 ```
 
-### MVP:
+<!-- ### MVP:
 
 Notes:
 - [x] Separate js class for notes
@@ -106,4 +129,4 @@ makeNote on click
 		-> store.push(content)
 			-> mountPreviews
 				-> getPreviews(store)
-					-> note.preview()
+					-> note.preview() -->
